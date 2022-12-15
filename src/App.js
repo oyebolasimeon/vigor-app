@@ -1,5 +1,5 @@
 // import './App.css';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+// import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 // #C41D1D
 import Header from './Components/Header';
 import Footer from './Components/Footer';
