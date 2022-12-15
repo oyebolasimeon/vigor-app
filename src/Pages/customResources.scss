@@ -1,0 +1,47 @@
+.resource-section{
+    width: 100%;
+    margin: auto;
+    margin-top: 5vh;
+    // background-color: purple;
+    min-height: 40vh;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 5vh;
+    span{
+        font-family: 'Inter', sans-serif;
+        color:  #6D7175;
+        text-align: center;
+    }
+    h2{
+        text-transform: capitalize;
+        font-family: 'Inter', sans-serif;
+    }
+
+    .reg-items{
+        display: flex;
+        // background-color: purple;
+        width: 90%;
+        margin: auto;
+        min-height: 40vh;
+        gap: 20px;
+        // order: 3;
+
+        .item-block{
+            flex: 1;
+            width: 100%;
+            background-color:  #F2F5F8;
+            min-height: 40vh;
+            text-align: left;
+
+            button{
+                margin-left: 4vh !important;
+                i{
+                    padding-left: 0 !important;
+                }
+            }
+            
+        }
+    }
+
+
+}

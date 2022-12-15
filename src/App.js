@@ -6,6 +6,7 @@ import Footer from './Components/Footer';
 import About from './Pages/About';
 import Banner from './Pages/Banner';
 import Subscribe from './Pages/Subscribe';
+import Resources from './Pages/Resources';
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
     <Banner />
   
       <About />
-    
+    <Resources />
     <Subscribe />
     <Footer />
     </div>
