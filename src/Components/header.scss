@@ -1,9 +1,12 @@
 .header{
     display: flex;
     margin: auto;
+    margin-top: -2vh !important;
     background-color: #fff;
     min-height: 10vh;
+    width: 100%;
     align-items: center;
+    position: fixed;
 
     .logo{
         flex: 2;
@@ -45,6 +48,20 @@
                 }
             }
             
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .header{
+        .nav-links{
+            ul{
+                li{
+                    .anchor{
+                        display: none;
+                    }
+                }
+            }
         }
     }
 }
