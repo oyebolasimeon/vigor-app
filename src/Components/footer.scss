@@ -32,7 +32,7 @@
             width: 90%;
            font-family: 'Inter', sans-serif;
            margin-left: 10vh;
-           margin-top: -20vh;
+        //    margin-top: -10vh;
            padding-bottom: 4vh;
            
         }
@@ -56,13 +56,19 @@
             display: flex;
             align-items: center;
             width: 100%;
+            margin-top:5vh !important;
+            margin-bottom: 5vh !important;
             margin: auto;
             margin-left: 10vh;
             .form-input{
-                height: 6vh;
+                height: 7vh;
                 margin-top: 4vh;
                 margin-right: -6vh;
                 width: 50%;
+                border: none;
+                padding-left: 2vh;
+                font-size: 12px;
+                outline: none;
             }
         }
 
