@@ -20,7 +20,7 @@ function App() {
     </Router> */}
     <Banner />
   
-      {/* <About /> */}
+      <About />
     <Resources />
     <Subscribe />
     <Footer />
