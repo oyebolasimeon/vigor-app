@@ -1,8 +1,10 @@
 .subscribe-section{
     display: flex;
     margin: auto;
-    min-height: 40vh;
-    background-color:#A80000;
+    min-height: 50vh;
+    background-image: url(../assets/subscribe.jpg);
+    background-size: cover;
+    // background-repeat: no-repeat;
     align-items: center;
     width: 95%;
     border-radius: 10px 10px;
