@@ -21,3 +21,11 @@ button{
         padding-left: 2vh;
     }
 }
+
+@media screen and (max-width: 500) {
+    button{
+        i{
+            padding-left: 0 !important;
+        }
+    }
+}
