@@ -5,8 +5,15 @@ button{
     padding: 2vh;
     margin-left: 7vh;
     margin-top: 4vh;
-    width: 20vh;
+    width: fit-content;
+    padding-left: 3vh;
+    padding-right: 3vh !important;
     border-radius: 5px 5px;
     font-size: 12px;
     font-family: 'Inter', sans-serif;
+    cursor: pointer;
+
+    &:hover{
+        background-color: #890808;
+    }
 }

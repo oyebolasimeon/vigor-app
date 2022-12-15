@@ -4,7 +4,7 @@ import './button.scss'
 const Button = (props) => {
   return (
     <div>
-        <button style={props.style}>
+        <button type={props.type} style={props.style}>
             {props.content} <i className="fa fa-chevron-right"></i>
         </button>
     </div>
