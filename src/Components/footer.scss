@@ -79,5 +79,32 @@
 @media screen and (max-width: 700px) {
     .footer{
         flex-direction: column;
+        .footer-wrapper{
+            flex-direction: column;
+            width: 90%;
+            margin: auto;
+            .footer-img{
+                display: none;
+            }
+            .footer-form{
+                // background-color: blue;
+                width: 100%;
+                form{
+                    margin-left: 0!important;
+                }
+                p{
+                    margin-left: 0!important;
+                }
+                form{
+                    margin-left: 0!important;
+                }
+                span{
+                    margin-left: 0!important;
+                }
+                h2{
+                    margin-left: 0!important;
+                }
+            }
+        }
     }
 }
