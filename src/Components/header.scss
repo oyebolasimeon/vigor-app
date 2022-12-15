@@ -1,0 +1,52 @@
+.header{
+    display: flex;
+    margin: auto;
+    background-color: #fff;
+    min-height: 10vh;
+    align-items: center;
+
+    .logo{
+        flex: 2;
+        h2{
+            margin-left: 4vh;
+            font-family: 'Inter', sans-serif;
+            font-size: 22px;
+            font-weight: 900 !important;
+
+
+        }
+    }
+
+    .nav-links{
+        flex: 1;
+        ul{
+            list-style: none;
+            justify-content: space-around;
+            display: flex;
+            font-family: 'Inter', sans-serif;
+            margin-right: 4vh;
+
+            li{
+                .anchor{
+                    color: #000;
+                    text-transform: capitalize;
+                    font-size: 14px;
+                    cursor: pointer;
+                    text-decoration: none;
+
+                    &:hover{
+                        color: #C41D1D;
+                    }
+                }
+
+                .toggle{
+                    color: #C41D1D;
+                    border: #000
+                }
+            }
+            
+        }
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital@1&family=Cedarville+Cursive&family=Great+Vibes&family=Inter:wght@400&family=Montserrat:ital,wght@0,100;0,600;1,200;1,400&family=Open+Sans:wght@300&family=PT+Sans+Narrow&family=Poppins:wght@600&family=Rokkitt:wght@200;300&family=Ubuntu:ital,wght@0,300;0,500;1,400&display=swap'); 

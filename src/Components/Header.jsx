@@ -1,9 +1,39 @@
 import React from 'react'
+import './header.scss'
 
 const Header = () => {
   return (
     <div>
-          <header className="header" id="header">
+        <header className="header" id="header">
+            <div className="logo">
+                <h2>Vigor Toolkits</h2>
+                {/* Subsititute for Image Logo */}
+                {/* <img src="" alt='logo' /> */}
+            </div>
+            <nav className="nav-links">
+                <ul>
+                    <li>
+                        <a href="#home" className="anchor">home</a>
+                    </li>
+                    <li>
+                        <a href="#home" className="anchor">about</a>
+                    </li>
+                    <li>
+                        <a href="#home" className="anchor">vigor</a>
+                    </li>
+                    <li>
+                        <a href="#home" className="anchor">resources</a>
+                    </li>
+                    <li>
+                        <a href="#home" className="anchor">tools</a>
+                    </li>
+                    <li>
+                        <a href="#home" className="toggle"><i className="fa fa-moon"></i></a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+          {/* <header className="header" id="header">
             <nav className="nav container">
                 <a href="#" className="nav__logo">Vigour Toolkits</a>
 
@@ -59,7 +89,7 @@ const Header = () => {
                     </div>
                 </div>
             </nav>
-        </header>
+        </header> */}
     </div>
   )
 }
