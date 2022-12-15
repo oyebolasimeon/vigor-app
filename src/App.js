@@ -5,6 +5,7 @@ import Header from './Components/Header';
 import Footer from './Components/Footer';
 import About from './Pages/About';
 import Banner from './Pages/Banner';
+import Subscribe from './Pages/Subscribe';
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
   
       <About />
     
-
+    <Subscribe />
     <Footer />
     </div>
   );
