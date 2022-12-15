@@ -1,4 +1,5 @@
 import React from 'react'
+import ResourcesCard from '../Components/resourcesCard'
 import './customResources.scss'
 
 const Resources = () => {
@@ -9,21 +10,9 @@ const Resources = () => {
             <h2>Data protection regulation</h2>
 
             <div className="reg-items">
-                <div className="item-block">
-                <button>
-                <i className="fa fa-arrows-alt"></i>
-                </button>
-                </div>
-                <div className="item-block">
-                <button>
-                <i className="fa fa-code"></i>
-                </button>
-                </div>
-                <div className="item-block">
-                <button>
-                <i className="fa fa-pen"></i>
-                </button>
-                </div>
+                <ResourcesCard fontIcon="fa fa-arrows-alt" title="EU COOKIE DIRECTIVE" content="Lorem ipsum dolor sit amet consectetur. Velit maecenas purus tristique sagittis lectus sit risus. Dignissim leo scelerisque scelerisque in." />
+                <ResourcesCard fontIcon="fa fa-code" title="UKGDPR" content="Lorem ipsum dolor sit amet consectetur. Velit maecenas purus tristique sagittis lectus sit risus. Dignissim leo scelerisque scelerisque in."/>
+                <ResourcesCard fontIcon="fa fa-pencil" title="ICO" content="Lorem ipsum dolor sit amet consectetur. Velit maecenas purus tristique sagittis lectus sit risus. Dignissim leo scelerisque scelerisque in." />
             </div>
         </section>
     </div>

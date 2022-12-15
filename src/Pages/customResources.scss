@@ -39,9 +39,37 @@
                     padding-left: 0 !important;
                 }
             }
+
+            h3{
+                font-family: 'Inter', sans-serif;
+                margin-left: 4vh;
+            }
+            p{
+                width: 90%;
+                margin: auto;
+                color: #6D7175;
+                font-size: 14px;
+                line-height: 20px;
+            }
+
+            .more-item{
+                background-color: transparent !important;
+                color: #A80000;
+                i{
+                    padding-left: 1vh !important;
+                }
+            }
             
         }
     }
 
 
+}
+
+@media screen and (max-width: 600px) {
+    .resource-section{
+        .reg-items{
+            flex-direction: column;
+        }
+    }
 }
