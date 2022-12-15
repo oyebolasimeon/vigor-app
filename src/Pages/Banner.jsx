@@ -1,6 +1,7 @@
 import React from 'react'
 import './customBanner.scss'
 import aboutImg from '../assets/img-1.jpg'
+import aboutImg2 from '../assets/img-2.jpg' 
 import Button from '../Components/Button'
 
 const Banner = () => {
@@ -17,7 +18,7 @@ const Banner = () => {
                <img src={aboutImg} />
             </div>
             <div className="box-3">
-                <img src={aboutImg} />
+                <img src={aboutImg2} />
             </div>
         </section>
     </>
