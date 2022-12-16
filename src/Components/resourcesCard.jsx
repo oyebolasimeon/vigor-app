@@ -4,7 +4,23 @@ import TextModal from './TextModal'
 const ResourcesCard = (props) => {
     let modalBox = () =>{
 
-        alert("hello")
+        // alert("hello")
+        let modal = document.getElementById("myModal");
+        let span = document.getElementsByClassName("close")[0];
+
+        span.onclick = function() {
+            modal.style.display = "none";
+            console.log("Close Box with Icon");
+          }
+
+          modal.style.display = "block";
+
+          window.onclick = function(event) {
+            if (event.target == modal) {
+              modal.style.display = "none";
+              console.log("CLose Box");
+            }
+          }
     }
   return (
     <>
