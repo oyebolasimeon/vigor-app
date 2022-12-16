@@ -6,9 +6,9 @@ import imgBlock3 from '../assets/news-3.png'
 const ResourcesCard = (props) => {
     let modalBox = ( itemNumber) =>{
 let title = [
-    "EU COOKIE DIRECTIVE",
+    "ICO",
     "UKGDPR",
-    "ICO"
+    "EU COOKIE DIRECTIVE"
 ]
 let subtitle = [
     "Information Commissioners Office",
