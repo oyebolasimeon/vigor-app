@@ -98,3 +98,20 @@
     }
 
 }
+
+@media screen and (max-width: 600px) {
+    .resource-section{
+        .reg-items{
+            .item-block{
+            .counts{
+                flex-direction: column;
+                .count-cards{
+                    // margin: auto !important;
+                    margin-bottom: 2vh !important;
+                }
+                // margin-left: 2px !important;
+            }
+        }
+        }
+    }
+}
