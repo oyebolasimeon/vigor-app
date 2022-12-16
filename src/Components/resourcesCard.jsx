@@ -22,8 +22,10 @@ let imageList = [
     imgBlock3
 ]
 
+let textpar = "<br/>The ICO is the UK's independent body set up to uphold information rights. <br/>Find out more about the organization and structure.<br/><br/>• GETTING STARTED WITH DATA PROTECTION:<br/> Find out if data protection laws apply to your business. https://ico.org.uk/for-organisations/sme-web-hub/checklists/does-data-protection-law-apply-to-my-business/<br/> <br/>• THE ICO EXEMPTIONS AND SELF-ASSESSMENTS: <br/>Find out if you are eligible for exemptions and more using the ICO data protection self-assessments.  https://ico.org.uk/for-organisations/sme-web-hub/checklists/data-protection-self-assessment/<br/><br/>• THE ICO COMPLIANCE CHECKLIST: HOW WELL DO YOU COMPLY WITH DATA PROTECTION LAW? Find out how well you comply with data protection regulations using this assessment checklist.  https://ico.org.uk/for-organisations/sme-web-hub/checklists/assessment-for-small-business-owners-and-sole-traders/ <br/><br/>• ADVICE FOR ALL SMALL ORGANISATIONS –- ICO SME WEB HUB Advice and guidance for all small- to medium-sized enterprises (SMEs). https://ico.org.uk/for-organisations/sme-web-hub/ <br/><br/>"
+
 let content = [
-    "Simeon Oye",
+    textpar,
     "Lorem ipsum dolor sit amet consectetur. Nec lobortis venenatis fermentum tincidunt. Dis eu ultrices justo ullamcorper odio risus sed. Condimentum ipsum condimentum tincidunt felis nisl aliquam diam porttitor ornare. Dignissim id posuere tellus ridiculus tempor auctor quis. Neque dictum quam sit urna sed neque non nulla.",
     "Lorem ipsum dolor sit amet consectetur. Nec lobortis venenatis fermentum tincidunt. Dis eu ultrices justo ullamcorper odio risus sed. Condimentum ipsum condimentum tincidunt felis nisl aliquam diam porttitor ornare. Dignissim id posuere tellus ridiculus tempor auctor quis. Neque dictum quam sit urna sed neque non nulla."
 ]
