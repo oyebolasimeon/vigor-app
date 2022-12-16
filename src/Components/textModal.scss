@@ -104,9 +104,12 @@
   @media screen and (max-width: 600px) {
     .modal{
         .modal-content{
-            width: 80%;
+            width: 90%;
             .gallery{
                 width: 100%;
+                .subtitle{
+                    margin-left: 2vh !important;
+                }
             }
         }
     }
