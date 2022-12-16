@@ -7,10 +7,8 @@ const ResourcesCard = (props) => {
                     <button>
                         <i className={props.fontIcon}></i>
                     </button>
-                    <h3>EU COOKIE DIRECTIVE</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur. Velit maecenas purus tristique sagittis lectus sit risus. Dignissim leo scelerisque scelerisque in.
-                        </p>
+                    <h3> {props.title} </h3>
+                        <p>{props.content} </p>
                     <button className="more-item">
                         See more <i className="fa fa-long-arrow-right"></i>
                     </button>

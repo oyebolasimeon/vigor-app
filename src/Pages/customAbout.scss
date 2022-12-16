@@ -17,4 +17,84 @@
         font-family: 'Inter', sans-serif;
     }
 
+    .reg-items{
+        display: flex;
+        // background-color: purple;
+        width: 90%;
+        margin: auto;
+        min-height: 40vh;
+        gap: 20px;
+        background-color:  #F2F5F8;
+        // order: 3;
+
+        .item-block{
+            flex: 1;
+            width: 100%;
+            background-color:  #F2F5F8;
+            min-height: 40vh;
+            text-align: left;
+
+            img{
+                width: 100%;
+            }
+
+            button{
+                margin-left: 4vh !important;
+                i{
+                    padding-left: 0 !important;
+                }
+            }
+
+            h3{
+                font-family: 'Inter', sans-serif;
+                margin-left: 4vh;
+            }
+            p{
+                width: 90%;
+                margin: auto;
+                color: #6D7175;
+                font-size: 14px;
+                line-height: 20px;
+            }
+            .about-text{
+                text-align: justify !important;
+            }
+            .counts{
+                display: flex;
+                width: 60vh;
+                margin-left: 4vh;
+                margin-top: 4vh;
+                .count-cards{
+                    flex: 1;
+                    h2{
+                        // margin-left: 4vh;
+                        color: #A80000;
+                        line-height: 5px;
+                    }
+                    .count-text{
+                        // width: 90%;
+                        // margin-left: 4vh;
+                        font-family: 'Inter', sans-serif;
+                        margin: 0 !important;
+                        font-size: 12px !important;
+                        line-height: 18px;
+                        color: #6D7175;
+                        font-size: 14px;
+                    }
+                }
+            }
+
+
+            .more-item{
+                background-color: transparent !important;
+                color: #A80000;
+                padding-left: 0 !important;
+                i{
+                    padding-left: 1vh !important;
+                }
+            }
+            
+        }
+    }
+
 }
