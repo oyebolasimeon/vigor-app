@@ -1,12 +1,40 @@
 import React from 'react'
 import TextModal from './TextModal'
-
+import imgBlock1 from '../assets/img-1.jpg'
+import imgBlock2 from '../assets/img-2.jpg'
+import imgBlock3 from '../assets/img-1.jpg'
 const ResourcesCard = (props) => {
-    let modalBox = () =>{
+    let modalBox = ( itemNumber) =>{
+let title = [
+    "EU COOKIE DIRECTIVE",
+    "UKGDPR",
+    "ICO"
+]
+let subtitle = [
+    "Information Commissioners Office",
+    "UK General Data Protection Regulation",
+    "The International Information Security Standard"
+]
 
-        // alert("hello")
+let imageList = [
+    imgBlock1,
+    imgBlock2,
+    imgBlock3
+]
+
+let content = [
+    "Simeon Oye",
+    "Lorem ipsum dolor sit amet consectetur. Nec lobortis venenatis fermentum tincidunt. Dis eu ultrices justo ullamcorper odio risus sed. Condimentum ipsum condimentum tincidunt felis nisl aliquam diam porttitor ornare. Dignissim id posuere tellus ridiculus tempor auctor quis. Neque dictum quam sit urna sed neque non nulla.",
+    "Lorem ipsum dolor sit amet consectetur. Nec lobortis venenatis fermentum tincidunt. Dis eu ultrices justo ullamcorper odio risus sed. Condimentum ipsum condimentum tincidunt felis nisl aliquam diam porttitor ornare. Dignissim id posuere tellus ridiculus tempor auctor quis. Neque dictum quam sit urna sed neque non nulla."
+]
+
+        // alert("hello ",i)
+        console.log(itemNumber)
         let modal = document.getElementById("myModal");
+        let modalTitle = document.getElementById("modal-title");
+        let modalSubTitle = document.getElementById("subtitle")
         let span = document.getElementsByClassName("close")[0];
+        let modalImage = document.getElementById("img-modal")
 
         span.onclick = function() {
             modal.style.display = "none";
@@ -14,6 +42,16 @@ const ResourcesCard = (props) => {
           }
 
           modal.style.display = "block";
+
+          modalSubTitle.innerHTML = `
+                ${subtitle[itemNumber]}
+          `
+          modalTitle.innerHTML = `
+          <h3>${title[itemNumber]}</h3>`
+          modalImage.innerHTML = `
+          <img src=${imageList[itemNumber]}
+          <p className="modalpara">${content[itemNumber]} </p>
+          `
 
           window.onclick = function(event) {
             if (event.target == modal) {
@@ -30,7 +68,7 @@ const ResourcesCard = (props) => {
                     </button>
                     <h3> {props.title} </h3>
                         <p>{props.content} </p>
-                    <button className="more-item" onClick={modalBox}>
+                    <button className="more-item" id={props.itemNumber} onClick={(e) => {modalBox( props.itemNumber-1)}}>
                         See more <i className="fa fa-long-arrow-right"></i>
                     </button>
                 </div>

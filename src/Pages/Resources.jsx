@@ -10,9 +10,9 @@ const Resources = () => {
             <h2>Data protection regulation</h2>
 
             <div className="reg-items">
-                <ResourcesCard fontIcon="fa fa-arrows-alt" title="EU COOKIE DIRECTIVE" content="Lorem ipsum dolor sit amet consectetur. Velit maecenas purus tristique sagittis lectus sit risus. Dignissim leo scelerisque scelerisque in." />
-                <ResourcesCard fontIcon="fa fa-code" title="UKGDPR" content="Lorem ipsum dolor sit amet consectetur. Velit maecenas purus tristique sagittis lectus sit risus. Dignissim leo scelerisque scelerisque in."/>
-                <ResourcesCard fontIcon="fa fa-pencil" title="ICO" content="Lorem ipsum dolor sit amet consectetur. Velit maecenas purus tristique sagittis lectus sit risus. Dignissim leo scelerisque scelerisque in." />
+                <ResourcesCard fontIcon="fa fa-arrows-alt" itemNumber="1" title="EU COOKIE DIRECTIVE" content="Lorem ipsum dolor sit amet consectetur. Velit maecenas purus tristique sagittis lectus sit risus. Dignissim leo scelerisque scelerisque in." />
+                <ResourcesCard fontIcon="fa fa-code" title="UKGDPR" itemNumber="2" content="Lorem ipsum dolor sit amet consectetur. Velit maecenas purus tristique sagittis lectus sit risus. Dignissim leo scelerisque scelerisque in."/>
+                <ResourcesCard fontIcon="fa fa-pencil" title="ICO" itemNumber="3" content="Lorem ipsum dolor sit amet consectetur. Velit maecenas purus tristique sagittis lectus sit risus. Dignissim leo scelerisque scelerisque in." />
             </div>
         </section>
     </div>
