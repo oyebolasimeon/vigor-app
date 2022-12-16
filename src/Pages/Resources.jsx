@@ -12,7 +12,7 @@ const Resources = () => {
             <div className="reg-items">
                 <ResourcesCard fontIcon="fa fa-arrows-alt" itemNumber="1" title="ICO" content="(ICO): The ICO is the UK's independent body set up to uphold information rights. Find out more about the organization and structure." />
                 <ResourcesCard fontIcon="fa fa-code" title="UKGDPR" itemNumber="2" content="Guide to the general data protection regulation -gdpr. https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/principles/."/>
-                <ResourcesCard fontIcon="fa fa-pencil" title="EU COOKIE DIRECTIVE" itemNumber="3" content="Lorem ipsum dolor sit amet consectetur. Velit maecenas purus tristique sagittis lectus sit risus. Dignissim leo scelerisque scelerisque in." />
+                <ResourcesCard fontIcon="fa fa-pencil" title="EU COOKIE DIRECTIVE" itemNumber="3" content="Data Privacy Audit -- Scan your website and find out which cookies and tracking technologies are collecting data" />
             </div>
         </section>
     </div>

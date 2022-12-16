@@ -27,7 +27,7 @@ let textpar = "<br/>The ICO is the UK's independent body set up to uphold inform
 let content = [
     textpar,
     "Lorem ipsum dolor sit amet consectetur. Nec lobortis venenatis fermentum tincidunt. Dis eu ultrices justo ullamcorper odio risus sed. Condimentum ipsum condimentum tincidunt felis nisl aliquam diam porttitor ornare. Dignissim id posuere tellus ridiculus tempor auctor quis. Neque dictum quam sit urna sed neque non nulla.",
-    "Lorem ipsum dolor sit amet consectetur. Nec lobortis venenatis fermentum tincidunt. Dis eu ultrices justo ullamcorper odio risus sed. Condimentum ipsum condimentum tincidunt felis nisl aliquam diam porttitor ornare. Dignissim id posuere tellus ridiculus tempor auctor quis. Neque dictum quam sit urna sed neque non nulla."
+    "<br/>Data Privacy Audit --<br/><br/> Scan your website and find out which cookies and tracking technologies are collecting data:<br/> https://usercentrics.com/data-privacy-audit/ page<br/><br/>• Try Cookie bot’s free compliance test to check if your website’s use of cookies and online tracking is GDPR/ePR compliant: https://www.cookiebot.com/."
 ]
 
         // alert("hello ",i)
