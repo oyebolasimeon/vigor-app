@@ -1,8 +1,8 @@
 import React from 'react'
 import TextModal from './TextModal'
-import imgBlock1 from '../assets/img-1.jpg'
-import imgBlock2 from '../assets/img-2.jpg'
-import imgBlock3 from '../assets/img-1.jpg'
+import imgBlock1 from '../assets/news-1.png'
+import imgBlock2 from '../assets/news-2.png'
+import imgBlock3 from '../assets/news-3.png'
 const ResourcesCard = (props) => {
     let modalBox = ( itemNumber) =>{
 let title = [
