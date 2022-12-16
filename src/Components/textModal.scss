@@ -97,33 +97,20 @@
               }
           }
 
-         
-
-        //   .cards{
-        //     background-color: #fff;
-        //     min-height: 30vh;
-        //     // width: 100%;
-        //   }
         
       }
   }
+
+  @media screen and (max-width: 600px) {
+    .modal{
+        .modal-content{
+            width: 80%;
+            .gallery{
+                width: 100%;
+            }
+        }
+    }
+  }
   
-  /* Modal Content */
-  /* The Close Button */
-//   .close {
-//     color: #aaaaaa;
-//     // float: right;
-//     font-size: 20px;
-//     font-weight: bold;
-//     i{
-//         color: #A80000;
-//     }
-//   }
-  
-//   .close:hover,
-//   .close:focus {
-//     color: #A80000;
-//     text-decoration: none;
-//     cursor: pointer;
-//   }
+
 
